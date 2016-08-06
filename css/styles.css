@@ -1,0 +1,432 @@
+#security_screen {
+    width : 600px;
+    height: 370px;
+    background-image: url(../images/screen.png);
+    color: white;
+    font-size: 10pt;
+    margin: 0px auto;
+}
+
+.screen_content {
+    margin: 0px auto;
+    padding: 40px 45px;
+}
+
+#family_tree_container {
+    text-align: center;
+    padding: 2px;
+    background-color: white;
+}
+
+.display_inline {
+    display: inline;
+}
+
+.right_aligned {
+    text-align: right;
+}
+
+.small_margin {
+    margin-top: 8px;
+}
+
+/*styling of the main game board*/
+body{
+	background-image: url(../images/light_mosaic.png);
+	font-family: trebuchet ms;
+}
+
+#frame {
+    margin: 40px auto 0px auto; 
+	width: 850px; 
+}
+
+.allcontent{
+	background-color: #cfcfc4;
+	padding: 30px;
+	min-height: 380px;
+}
+
+.bottom_pane{
+	background-color: #a3948f;	
+}
+
+/* The Tooltip: */
+.tooltip_box {
+  /* Positioning must be absolute, because the
+	 coordinates of the tooltip are dynamically
+	 set to specific values later:
+  */
+  position: absolute;
+  /* The tooltip appears on top of other elements: */
+  z-index: 10000;
+  /* Appearance: */
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.buttons{
+	border-radius: 10px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.main_map{
+	margin: 0px auto;
+	text-align: center;
+    width: 757px;
+    height: 360px;
+    background-image: url(../images/game_map_new.png);
+    z-index: 1;
+    position: relative;
+}
+
+#tower1_div {
+    background-color: #fc8663; /*red*/
+    opacity: 0.5;
+    position: absolute;
+    top: 19px;
+    left: 261px;
+    width: 59px;
+    height: 54px;
+    z-index: 2;
+}
+#tower1_symbol {
+	z-index: 3;
+	position: absolute;
+	top: 56px;
+	left: 264px;
+	width: 15px;
+	height: 15px;
+}
+#tower1_door {
+	z-index: 2;
+	position: absolute;
+	top: 74px;
+	left: 270px;
+}
+#tower2_div {
+    background-color: #fc8663; /*red*/
+    opacity: 0.5;
+    position: absolute;
+    top: 96px;
+    left: 20px;
+    width: 67px;
+    height: 66px;
+    z-index: 2;
+}
+#tower2_symbol {
+	z-index: 3;
+	position: absolute;
+	top: 144px;
+	left: 23px;
+	width: 15px;
+	height: 15px;
+}
+#tower2_door {
+	z-index: 2;
+	position: absolute;
+	top: 118px;
+	left: 97px;
+}
+#tower3_div {
+    background-color: #fc8663; /*red*/
+    opacity: 0.5;
+    position: absolute;
+    top: 289px;
+    left: 168px;
+    width: 59px;
+    height: 53px;
+    z-index: 2;
+}
+#tower3_symbol {
+	z-index: 3;
+	position: absolute;
+	top: 324px;
+	left: 170px;
+	width: 15px;
+	height: 15px;
+}
+#tower3_door1 {
+	z-index: 2;
+	position: absolute;
+	top: 265px;
+	left: 189px;
+}
+#tower3_door2 {
+	z-index: 2;
+	position: absolute;
+	top: 311px;
+	left: 236px;
+}
+#library_div {
+    cursor: pointer;
+    position: absolute;
+    top: 289px;
+    left: 549px;
+    width: 73px;
+    height: 53px;
+    z-index: 2;
+}
+#chomsky_div {
+    cursor: pointer;
+    background-color: #fc8663; /*red*/
+    opacity: 0.5;
+    position: absolute;
+    top: 96px;
+    left: 678px;
+    width: 60px;
+    height: 40px;
+    z-index: 2;
+}
+#chomsky_symbol {
+	z-index: 3;
+	position: absolute;
+	top: 118px;
+	left: 680px;
+	width: 15px;
+	height: 15px;
+}
+#chomsky_door {
+	z-index: 2;
+	position: absolute;
+	top: 109px;
+	left: 662px;
+}
+#lock {
+	z-index: 2;
+	position: absolute;
+	top: 111px;
+	left: 644px;
+}
+.tower_link {
+      cursor: pointer;
+}
+
+.centered {
+	text-align: center;
+}
+
+.left_image {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.screen_link {
+	text-decoration: none;
+	color: #a3948f;
+}
+
+/*styles for phonetics task*/
+
+#transcription_container {
+	background-color: #a3948f;
+	width: 750px;
+	min-height: 48px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+#ipa_container {
+	margin: 30px auto;
+	text-align: center;
+}
+
+.ipa_symbol {
+	margin: 5px;
+	cursor: pointer;
+}
+
+.selected_ipa_symbol {
+	margin: 5px;
+}
+
+.red_border {
+	border: 5px solid #f16261;
+}
+
+.green_border {
+	border: 5px solid #c3be6c;
+}
+
+/*table layout*/
+.display_table{ /*for displaying content in two blocks next to each other -> designed like table*/
+	display: table;
+}
+
+#family_task_table {
+	margin: 0 auto;
+}
+
+.table_row{
+	display: table-row;
+}
+
+.table_cell{
+	display: table-cell;
+	padding: 1px;
+}
+
+/*styles for the notebook popup*/
+#notebook{
+	width : 550px;
+    height: 763px;
+	background-image: url(../images/notebook.png);
+	margin: 15px auto;
+	font-family: segoe script, trebuchet ms;
+}
+
+#notebook_title {
+	padding-left: 90px;
+	padding-top: 45px;
+	text-decoration: underline;
+}
+
+#tree_in_notebook{
+	width : 400px;
+	padding-left: 90px;
+}
+
+#sentences_in_notebook{
+	padding-left: 20px;
+	height: 320px;
+}
+
+#powers_in_notebook{
+	padding-left: 20px;
+}
+
+/*styles for the help popup*/
+#help{
+	width : 550px;
+    height: 500px;
+    background-image: url(../images/light_mosaic.png);
+	margin: 15px auto;
+}
+
+/*styles for syntax task*/
+
+#trees_container {
+	background-color: #a3948f;
+	width: 720px;
+	min-height: 320px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.tree_picture {
+	margin: 8px 2px;
+	cursor: pointer;
+}
+
+.unselectable_tree_picture {
+	margin: 8px 2px;
+}
+
+.selection_border {
+	border: 5px solid black;
+}
+
+.invisible_border {
+	border: 5px solid #a3948f; /*necessary, so that selected picture doesn't 'jump' when border is added*/
+}
+
+/*styles for morphology task*/
+#morph_displayed {
+	background-color: #a3948f;
+	width: 750px;
+	min-height: 48px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+#display_area_morph {
+	font-size: 20pt;
+}
+
+.morpheme {
+	cursor: pointer;
+	border: 5px solid #a3948f;
+	margin-right: 5px;
+}
+
+.unselectable_morpheme {
+	border: 5px solid black;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+#morpheme_container {
+	min-height: 40px;
+	text-align: center;
+}
+
+#submitted_morpheme {
+	margin: 10px;
+	padding: 2px;
+}
+
+.letter {
+	cursor: pointer;
+	border: 5px solid #a3948f;
+	margin-right: 5px;
+}
+.unselectable_letter {
+	border: 5px solid black;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+/*styles for library*/
+.hidden {
+	display: none;
+}
+
+.open_book {
+	width : 800px;
+	height : 586px;
+	background-image: url(../images/book_open.png);
+	margin: 10px auto;
+}
+
+.book_content_left {
+	padding-top: 32px;
+	padding-left: 95px;
+	width: 300px;
+	float: left;
+}
+
+.book_content_right {
+	padding-top: 65px;
+	padding-right: 90px;
+	float: right;
+	width: 300px;
+}
+
+area {
+	cursor: pointer;
+}
+
+#consonants_pic {
+	cursor: pointer;
+}
+
+/*styles for index.php:*/
+fieldset {
+	border-color: #a3948f;
+    border-style: solid;
+}
+
+.error_msgs {
+	color: #f16261;
+}
+
+.error_indexpage {
+	padding: 4px;
+}
+
+/*styles for bottom pane buttons*/
+#right_buttons {
+	float: right;
+}
